@@ -1,0 +1,128 @@
+.header {
+    text-align: center;
+    background-image: linear-gradient(135deg, #80ffea 0%, #8aff80 100%);
+    font-family: inherit;
+    font-size: 30px;
+    line-height: 50px;
+    margin: 0px 0px 20px;
+    color: #80ffea;
+    background-size: 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 3px #80ffea, 0 0 6px #39ff14;
+}
+
+.header {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+/* .sub-heading h1 {
+    color: #80ffea;
+    background-size: 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(135deg, #80ffea 0%, #8aff80 100%);
+} */
+.body {
+    background-color: #08070b;
+}
+html {
+    background-color: #08070b;
+    color: #8f9ba8;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+        Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#root {
+    background-color: #08070b;
+}
+
+.copy-button {
+    background-color: #08070b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 42px;
+}
+
+.copy-button:hover {
+    background-color: #666; /* Slightly lighter grey on hover */
+}
+
+.copy-button i {
+    margin-right: 5px;
+    /* Space between icon and text */
+}
+
+.copy-success {
+    color: #f2f2f2;
+    margin-top: 1rem;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Take up full viewport height */
+}
+
+.loader::before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    border: 5px solid #f3f3f3;
+    border-top-color: #3498db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.switch button {
+    margin-left: 26rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    padding: 10px 20px;
+    border: none;
+    background-color: #28282b;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 4px #999;
+    transition: all 0.3s ease;
+}
+
+/* Button Hover Effect */
+.switch > button:hover {
+    color: #80ffea;
+    background-size: 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(135deg, #80ffea 0%, #8aff80 100%);
+}
+/* Example for changing tooltip background and text color */
+.recharts-tooltip-wrapper {
+    background-color: #4a90e2; /* Change to your desired background color */
+    color: blueviolet; /* Change to your desired text color */
+    border-radius: 4px; /* Optional: for rounded corners */
+    padding: 5px; /* Optional: for padding inside the tooltip */
+    /* Add other styles as needed */
+}
